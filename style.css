@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;900&family=Syncopate:wght@400;700&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+.container{
+    position: relative;
+    width:100%;
+    height:100vh;
+    background-color:rgb(221,212,197);
+    overflow:hidden;
+}
+header{
+    position: relative;
+    width:100%;
+    padding:35px 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.logo a{
+    text-decoration:none;
+    font-size:23px;
+    font-weight:600;
+    color:#262626; 
+    position: relative;
+    top:-8px; 
+}
+.logo a span{
+    color:rgb(255,115,0);
+}
+.menu{
+    display:flex;
+}
+.menu ul{
+    position: relative;
+    top:8px;
+    left:-10vh;
+    display:flex;
+}
+.menu ul li{
+    list-style:none;
+}
+.menu ul li a{
+    text-decoration:none;
+    font-size:18px;
+    text-transform: capitalize;
+    margin:0 16px;
+    color:#262626;
+    cursor: pointer;
+    transition:0.5s ease-in;
+}
+.menu ul li a:hover{
+    color:rgb(255,132,0);
+}
+.menu .btn{
+    position: relative;
+    padding:12px 35px;
+    font-size:18px;
+    font-weight:600;
+    text-transform:capitalize;
+    color:#000;
+    background-color:rgb(255,132,0);
+    text-decoration:none;
+    border:1px solid #000;
+    cursor: pointer;
+    transition:0.3s;
+}
+.menu .btn:hover{
+    background-color:green;
+   color:#fff;
+}
+.content{
+    position: relative;
+    display:flex;
+}
+.content-info{
+    position: relative;
+    padding:0 100px;
+}
+.content-info .title{
+    font-weight:600;
+    color:#262626;
+    padding:12px 0;
+    text-transform: uppercase;
+}
+.content-info .title img{
+    position: relative;
+    top:12px;
+    left:5px;
+    width:5%;
+}
+.content-info h1{
+    font-size:4rem;
+    font-weight:700;
+    color:#000;
+    text-transform: capitalize;
+}
+.content-info h1 img{
+    position: relative;
+    top:12px;
+    width:25%;
+}
+.content-info .detils{
+    font-size:18px;
+    font-weight:600;
+    color:#000;
+    line-height:1.5;
+    padding:20px 0;
+}
+form{
+    position: relative;
+}
+.emailBox{
+    position: relative;
+    width:300px;
+    height:60px;
+    background-color:#fff;
+    border:2px solid #000;
+    border-radius:2px;
+    outline:none;
+    padding:0 12px;
+    font-size:18px;
+    font-weight:600;
+}
+.submite{
+    position: relative;
+    padding:16.5px 32px;
+    background-color:rgb(255,132,0);
+    font-size:18px;
+    font-weight:600;
+    outline:none;
+    border:2px solid #000;
+    border-radius:2px;
+    text-decoration:none;
+    color:#000;
+    cursor: pointer;
+    transition:0.3s ease-in;
+}
+.submite:hover{
+   background-color:green;
+   color:#fff;
+}
+.exta-info{
+    position: relative;
+    top:25px;
+    padding:18px 35px;
+    background-color:rgba(255,132,0,0.094);
+    width:300px;
+    border-radius:12px;
+}
+.img-content .imgBox img{
+    width:45%;
+    cursor: pointer;
+    transition:0.5s ease-in;
+}
+.img-content .imgBox img:hover{
+    width:50%;
+}
+.img-content .box01{
+    position: relative;
+    left:20vh;
+    z-index:2;
+}
+.img-content .box02{
+    position: relative;
+    top:-12vh;
+    left:8vh;
+}
+.img-content .box03{
+    position: relative;
+    top:-26vh;
+    left:-18vh;
+    z-index:2;
+} 
